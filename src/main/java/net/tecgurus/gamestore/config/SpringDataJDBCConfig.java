@@ -18,9 +18,9 @@ public class SpringDataJDBCConfig extends AbstractJdbcConfiguration{
 	public DataSource dataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-		dataSource.setUrl("jdbc:mysql://db-game-store-do-user-12860483-0.b.db.ondigitalocean.com:25060/game_store");
+		dataSource.setUrl("jdbc:mysql://sf-game-store-db-do-user-12860483-0.b.db.ondigitalocean.com:25060/game_store");
 		dataSource.setUsername("doadmin");
-		dataSource.setPassword("AVNS_udD8O1KMZEMNzRNpYBR");
+		dataSource.setPassword("AVNS_OrHG0Ur9SDiPgCWeYk6");
 		return dataSource;
 	}
 	
